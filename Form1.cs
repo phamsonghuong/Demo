@@ -15,5 +15,12 @@ namespace Test1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int so1 = int.Parse(text1.Text);
+            int so2 = int.Parse(text2.Text);
+            int so = so1 + so2;
+        }
     }
 }
